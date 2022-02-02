@@ -24,8 +24,8 @@
     Open Modal With Slot
   </button>
 
-  <!-- Example de teleport: use to  + css selector to say where telport the component -->
-  <p>Example de modal simple teleport ( dans le body , cf index.html)</p>
+  <!-- Example de teleport: use to  + css selector to say where teleport the component -->
+  <p>Example de modal simple teleporté ( dans une div class  modalsTeleport , cf public/index.html)</p>
   <teleport to=".modalsTeleport" v-if="showModalTeleport">
     <Modal :header="headerTeleport" :textModal="textModal" @close="toggleModalTeleport" ></Modal>
   </teleport>
