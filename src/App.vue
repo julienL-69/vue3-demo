@@ -33,6 +33,10 @@
     Open Modal Teleport
   </button>
 
+  <!-- Example de component : mointé avec composition api -->
+  <p>Example de composant rédigé avec composition API au lieu de options Api</p>
+  <DemoCompositionApi></DemoCompositionApi>
+
 
 </template>
 
@@ -41,11 +45,12 @@
 <script>
 import Modal from './components/Modal.vue'
 import ModalSlot from './components/ModalSlot.vue'
+import DemoCompositionApi from './components/DemoCompositionApi.vue'
 
 export default {
   name: 'App',
   components: {
-    Modal , ModalSlot
+    Modal , ModalSlot, DemoCompositionApi
   },
   data() {
     return {
